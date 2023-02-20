@@ -4,8 +4,9 @@
    pull_request:
        types: [opened, edited, reopened]
    push:
-     - main
-     - development
+     branches:
+      - main
+      - development
    paths-ignore:
      - '.github/workflows/*'
 
